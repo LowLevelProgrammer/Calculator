@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Application.h"
 
 int main() {
-	std::cout << "Hello, World" << std::endl;
-	std::cin.get();
+	Application app;
+
+	app.Run();
+
 	return 0;
 }
